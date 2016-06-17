@@ -13,6 +13,7 @@
 		4D1AAEE41D13AA8F009D73C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AAEE21D13AA8F009D73C1 /* Main.storyboard */; };
 		4D1AAEE61D13AA8F009D73C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AAEE51D13AA8F009D73C1 /* Assets.xcassets */; };
 		4D1AAEE91D13AA8F009D73C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AAEE71D13AA8F009D73C1 /* LaunchScreen.storyboard */; };
+		4D1AAEF11D13AA9B009D73C1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1AAEF01D13AA9B009D73C1 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4D1AAEE51D13AA8F009D73C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1AAEE81D13AA8F009D73C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1AAEEA1D13AA90009D73C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1AAEF01D13AA9B009D73C1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1AAEF11D13AA9B009D73C1 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		4D1AAECD1D13AA8F009D73C1 = {
 			isa = PBXGroup;
 			children = (
+				4D1AAEF01D13AA9B009D73C1 /* libsqlite3.tbd */,
 				4D1AAED81D13AA8F009D73C1 /* Sqlite3Demo */,
 				4D1AAED71D13AA8F009D73C1 /* Products */,
 			);
